@@ -1,0 +1,57 @@
+.layoutContainer {
+  /* width: 100vw; */
+  min-height: 100vh;
+  color: #474444;
+  display: flex;
+}
+
+.logo > h1 {
+  /* margin-top: -0.1em; */
+  font-family: Jomhuria;
+  font-size: 3.8rem;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.navLink {
+  text-decoration: none;
+}
+.navLink > h4 {
+}
+.navContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 6em;
+  min-height: 100vh;
+  min-width: 20vw;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.outlet {
+  min-height: 100vh;
+  width: 80vw;
+  background-color: #ededed;
+}
+.logoutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoutContainer hr {
+  width: 10em;
+}
+
+.logoutContainer button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+}

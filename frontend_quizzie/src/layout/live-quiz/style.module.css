@@ -1,0 +1,103 @@
+.LiveQuizContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: #041325;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #474444;
+}
+
+.timerAndNum {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timerAndNum h3:last-child {
+  color: red;
+}
+
+.quesAndOption {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.LiveQuizContainer > div {
+  width: 60%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.optionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.optionContainer > div > button {
+  display: flex;
+  align-items: center;
+}
+
+.optionBtn {
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.nextBtn {
+  background-color: #60b84b;
+  padding: 0.5rem 2rem;
+  width: 10rem;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.scoreContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreContainer span {
+  color: #60b84b;
+}
+
+@media screen and (min-width: 1000px) {
+  .scoreContainer > img {
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .scoreContainer > img {
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .scoreContainer > h1 {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scoreContainer > img {
+    height: 5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .scoreContainer > h1 {
+    font-size: 0.7rem;
+  }
+}

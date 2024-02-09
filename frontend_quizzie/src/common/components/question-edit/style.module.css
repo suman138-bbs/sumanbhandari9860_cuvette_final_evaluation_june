@@ -1,0 +1,49 @@
+.qzAnalysisContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.qzAnalysisContainer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quiestionInput {
+  width: 25rem;
+  height: 2rem;
+  border: none;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.optionInput > div > input {
+  width: 20rem;
+  border: none;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.optionContainer {
+  margin-left: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonContainer > button {
+  border: none;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.optionContainer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

@@ -1,0 +1,39 @@
+.qzAnalysisContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qzAnalysisContainer > div > h4 {
+  color: #5076ff;
+}
+
+.qzAnalysisContainer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.detailContainer > div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.3rem;
+  border-radius: 0.8rem;
+}
+.detailContainer > div > p:first-child {
+  font-size: 2rem;
+}
+.detailContainer > div > p:first-child {
+  margin-top: -1rem;
+}
+
+.detailContainer > div > p:last-child {
+  margin-top: -2rem;
+}

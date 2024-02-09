@@ -1,0 +1,53 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    color: #474444;
+
+}
+.loginFormContainer{
+    display: flex;
+    gap: 3em;
+}
+
+.formContainer button{
+    width: 12em;
+    padding: 0.4em 1em;
+    border: none;
+    background-color: #A9BCFF;
+    border-radius: 0.5em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.labelContainer,.inputContainer{
+
+   display: flex;
+   text-align: end;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1.4em;
+}
+.labelContainer label{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.inputContainer input{
+    height: 2.4em;
+    width: 25em;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.errorsContainer{
+    /* margin-left: 2em; */
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+.errorsContainer span {
+        color: red;
+}
